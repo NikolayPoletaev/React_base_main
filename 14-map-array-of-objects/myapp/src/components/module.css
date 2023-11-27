@@ -1,0 +1,11 @@
+.colum{
+    width: 20%;
+    border: solid 2px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 10px 20px;
+}
+.imgc{
+    width: 100%;
+    border-radius: 15px;
+}

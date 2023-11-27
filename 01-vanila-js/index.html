@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    #btnone{
+        color: aquamarine;
+        background-color: #d41919;
+    }
+    #btntwo{
+        color: #d41919;
+        background-color: #05b21f;
+    }
+    .btn{
+        text-align: center;
+    }
+    .btn2{
+        text-align: center;
+    }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="btn">
+        <button id="btnone" onclick="changeButtonText('btnone')">
+            clik
+        </button>
+    </div>
+    <div class="btn2">
+        <button id="btntwo" onclick="changeButtonText2('btntwo')">
+            f
+        </button>
+    </div>
+    <script>
+        function changeButtonText(btnone) {
+            const myButton = document.getElementById(btnone);
+            myButton.innerHTML = 'Привет';
+            myButton.className = 'btnone';
+            ;
+        }
+        function changeButtonText2(btntwo) {
+            const myButton2 = document.getElementById(btntwo);
+            myButton2.innerHTML = 'Пока';
+            myButton2.className = 'btntwo'
+        }
+    </script>
+</body>
+</html>
